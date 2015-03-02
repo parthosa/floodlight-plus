@@ -1,13 +1,11 @@
+### Note: Latest version of [Floodlight](https://github.com/floodlight/floodlight) now has support for OpenFlow 1.3 using Loxigen. We recommend you use that instead of Floodlight-plus for building new applications.
+
 # Overview
 
 This is a version of the
 [Floodlight](www.projectfloodlight.org/floodlight/) controller with
-support for OpenFlow 1.3. The original code from Big Switch was forked
-off and updated. This repository is a work in progress.
-
-The current code base is functional for the available applications /
-modules like topology visualization, virtual networking, static flow
-pushers, firewall, and loadbalancer.
+support for OpenFlow 1.3 based on JOpenFlow. The original code from Big Switch was forked
+off and updated. This repository is a work in progress. The current code base is functional for the available applications / modules like topology visualization, virtual networking, static flow pushers, firewall, and loadbalancer.
 
 # Release notes
 
@@ -35,4 +33,3 @@ is Srini Seetharaman (srini.seetharaman@gmail.com)
 # Support/discussion forum
 
 (http://sdnhub.org/forums/forum/controller-platforms/floodlight-plus/)
-
